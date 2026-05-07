@@ -15,8 +15,8 @@ app.get('/health', (req, res) => {
   res.status(200).json({ status: 'UP' });
 });
 
-app.listen(PORT, () => {
-  console.log(`App running on port ${PORT}`);
-});
+//app.listen(PORT, () => {
+//  console.log(`App running on port ${PORT}`);
+//});
 
 module.exports = app;
